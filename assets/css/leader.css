@@ -1,0 +1,15 @@
+body {
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.container1 {
+    text-align: center;
+}
+
+.main-pic > img{
+    width: 35%;
+    height: auto;
+}
