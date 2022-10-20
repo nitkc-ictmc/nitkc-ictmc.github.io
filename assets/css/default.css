@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Noto+Serif+JP:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans JP';
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+    margin-top: 7%;
+}
+
+.main-hero > img {
+    width: 280px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.details {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%) translateX(130%);
+    transform: translateY(-50%) translateX(130%);
+}
+
+.details > span {
+    background-color: rgb(19, 164, 197);
+    border: 1px solid gray;
+    padding: 20px 0px;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+/* CSS */
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  margin-top: 20px;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+.details-item {
+    margin-bottom: 10px;
+}
