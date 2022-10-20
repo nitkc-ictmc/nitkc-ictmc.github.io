@@ -1,0 +1,62 @@
+/*
+  Navbar
+  ------
+*/
+
+.navbar-dark {
+  background-color: black;
+}
+
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: inherit;
+}
+
+.logo-heading {
+  display: inline-block;
+  max-height: 43px;
+  position: absolute;
+  top: 24px;
+  left: auto;
+}
+
+
+
+/*
+  Section - Home
+  --------------
+*/
+
+/* Home BG Static (default) */
+
+#home {
+  background: url("../images/bg-main.jpg");
+}
+
+
+/* Home BG Parallax */
+
+#home-bg-parallax > .bg-parallax {
+  background: url("../images/bg-parallax.jpg");
+}
+
+
+/* Home BG Slideshow */
+
+#home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(1) {
+  background: url("../images/bg-main.jpg");
+}
+
+
+/* Home BG Slider */
+
+#home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(1) {
+  background: url("../images/bg-main.jpg");
+}
+
+#home-bg-slideshow .display-table-cell,
+#home-bg-slider .display-table-cell {
+  position: relative;
+  z-index: 20;
+}
+
