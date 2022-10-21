@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Noto+Serif+JP:wght@200;400&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +15,9 @@
   padding-top: 30px !important;
   padding-bottom: 30px !important;
 }
+
+
+
 
 /*
   Navbar
@@ -88,4 +92,50 @@
 
 .member-box {
   margin-bottom: 24px !important;
+}
+
+.footer {
+  padding: 50px 0 32px;
+}
+
+
+#event-banner .row {
+  flex-direction: row;
+}
+#event-banner .row #banner-registration {
+  margin: auto;
+}
+
+/* President */
+
+.pres-pic {
+  margin-top: 25%;
+  width: 80% !important;
+}
+
+.president h2 {
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .pres-pic {
+  width: 30% !important;
+  margin-top: 5%;
+  }
+  .president h2 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .pres-pic {
+  width: 30% !important;
+  margin-top: 0;
+  }
 }
