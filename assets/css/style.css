@@ -6,6 +6,15 @@
     font-family: 'Noto Sans JP';
 }
 
+.greet-image {
+  border-radius: 50%;
+}
+
+.greeting-section {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
 /*
   Navbar
   ------
