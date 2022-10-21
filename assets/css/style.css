@@ -60,3 +60,10 @@
   z-index: 20;
 }
 
+
+/* Sponsors */
+
+.sponsors-ul > li {
+  font-size: medium;
+  padding: 6px;
+}
