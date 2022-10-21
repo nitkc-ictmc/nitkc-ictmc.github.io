@@ -145,6 +145,6 @@
   background-image: url('../images/back-03.png');
 }
 
-.no-fillter p, h2 {
+.no-fillter p, .no-fillter h2 {
   color: aliceblue !important;
 }
