@@ -140,3 +140,11 @@
   margin-top: 0;
   }
 }
+
+.bg-main-image {
+  background-image: url('../images/back-03.png');
+}
+
+.no-fillter p, h2 {
+  color: aliceblue !important;
+}
