@@ -169,3 +169,17 @@
   font-size: xx-large;
   line-height: 1.5;
 }
+
+.ess-container {
+  text-align: center;
+}
+
+.ess-container > img {
+  width: 60%;
+}
+
+@media only screen and (orientation: portrait) {
+  .ess-container > img {
+    width: 100%;
+  }
+}
