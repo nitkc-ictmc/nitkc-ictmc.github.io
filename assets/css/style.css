@@ -188,3 +188,9 @@
     width: 100%;
   }
 }
+
+@media only screen and (orientation: landscape) {
+  .ess-section {
+    padding-top: 120px !important;
+  }
+}
