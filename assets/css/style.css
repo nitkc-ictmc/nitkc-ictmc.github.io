@@ -148,3 +148,16 @@
 .no-fillter p, .no-fillter h2 {
   color: aliceblue !important;
 }
+.box-iwano {
+    padding: 1em 1em;
+    margin: 2em 0;
+    color: #ff7d6e;
+    background: #ffebe9;
+    border-top: solid 5px #ff7d6e;
+    border-bottom: solid 5px #ff7d6e;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+}
+
+.box-iwano p {
+  font-size: 2.3em;
+}
